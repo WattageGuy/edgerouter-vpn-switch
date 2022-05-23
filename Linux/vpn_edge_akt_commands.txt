@@ -1,0 +1,10 @@
+111111111111111111111111111111
+configure
+delete firewall name WAN_LOCAL rule 40 disable
+delete firewall name WAN_LOCAL rule 50 disable
+delete firewall name WAN_LOCAL rule 60 disable
+delete firewall name WAN_LOCAL rule 70 disable
+commit
+save
+exit
+exit

@@ -1,0 +1,14 @@
+111111111111111111111111111111
+configure
+set firewall name WAN_LOCAL rule 40 disable
+set firewall name WAN_LOCAL rule 50 disable
+set firewall name WAN_LOCAL rule 60 disable
+set firewall name WAN_LOCAL rule 70 disable
+clear vpn remote-access user <username edgerouter>
+commit
+save
+exit
+exit
+exit
+exit
+exit
