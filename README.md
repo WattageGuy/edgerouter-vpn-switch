@@ -49,4 +49,4 @@ For more about edgerouter shh key: https://youtu.be/rpAOl8UgfXM
   Guide here: https://thehomeofthefuture.com/how-to/use-an-ssh-key-with-an-ubiquiti-edgerouter/
   
 # Examples
-[Homebridge](https://homebridge.io/) with plugin [Applescript](https://www.npmjs.com/package/homebridge-applescript) makes a switch in the HomeKit app to turn on/off the VPN easily. Use "do shell script '' open /path''" to run your .app. On Linux you can you a homebridge plugin that does command line or execute shell script.
+[Homebridge](https://homebridge.io/) with plugin [Applescript](https://www.npmjs.com/package/homebridge-applescript) makes a switch in the HomeKit app to turn on/off the VPN easily. Use "do shell script '' open /path''" to run your .app. On Linux you can use any homebridge plugin that does command line or execute shell script.
