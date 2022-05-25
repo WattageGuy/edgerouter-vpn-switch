@@ -31,19 +31,22 @@ ex of where to find rule name:
 
 ![rules](https://github.com/WattageGuy/edgerouter-vpn-switch/blob/main/pictures/rules.PNG)
 
-# ssh key Mac and Edgerouter
+# SSH key Mac and Edgerouter
 1. In mac terminal: ssh-keygen -t rsa (You might need to input size for exampel -b 2048)
 2. To save the key to mac type: ssh-add
 3. ssh key saved in .ssh/id_rsa.pub give chmod 600.
 4. To show ssh key in terminal: cat .ssh/id_rsa.pub (load this text into edgerouter) OBS! include ex "ssh-rsa" and "username@host.local".
 Tutorial video: https://www.youtube.com/watch?v=E8-CfvumJBo
 
-# Edgerouter ssh key
 * Use loadkey to add key to edgrouter from a .pub file in edgrouters directory.
 1. cd into .ssh
 2. make a .pub file
 3. paste your ssh key and write, quit (:w!, :q!) ESC to ensure no mispressed keys.
 4. loadkey <path> (.pub file)
 For more about edgerouter shh key: https://youtu.be/rpAOl8UgfXM
+  
+# SSH Key Linux and Edgerouter
+  Guide here: https://thehomeofthefuture.com/how-to/use-an-ssh-key-with-an-ubiquiti-edgerouter/
+  
 # Examples
-[Homebridge](https://homebridge.io/) with plugin [Applescript](https://www.npmjs.com/package/homebridge-applescript) makes a switch in the HomeKit app to turn on/off the VPN easily. Use "do shell script '' open /path''" to run your .app
+[Homebridge](https://homebridge.io/) with plugin [Applescript](https://www.npmjs.com/package/homebridge-applescript) makes a switch in the HomeKit app to turn on/off the VPN easily. Use "do shell script '' open /path''" to run your .app. On Linux you can you a homebridge plugin that does command line or execute shell script.
