@@ -1,5 +1,5 @@
 # edgerouter-vpn-switch
-Applescript/Shell scipt that enable/disable vpn on edgerouter via ssh. The script can then be exported as an app to be used even more widely (mac) or be used as shell script.
+Applescript/Shell script that enable/disable vpn on edgerouter via ssh. The script can then be exported as an app to be used even more widely (mac) or be used as shell script.
 
 # Explanation
 The script should not be used without ssh key if possible. You can keystroke password in applescript but this is not recommend do to security.
